@@ -7,7 +7,7 @@ int main() {
 
 	cv::Mat srcMat = imread("C:112.jpg");
 	int height = srcMat.rows;
-	int width = srcMat.cols;
+	int width = srcMat.cols;//
 	for (int j = 0; j < height; j++) {
 		for (int i = 0; i < width; i++) {
 
